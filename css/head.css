@@ -1,0 +1,100 @@
+body {
+    font-family: "Helvetica";
+    margin: 0;
+    min-height: 100%;
+    /*background-color: #dfe6ed;*/
+}
+header {
+    width: 100%;
+    height: 60px;
+    background-color: #1f1f1f;
+    /*opacity: 0.9;*/
+    color: white;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+}
+header > div {
+    float: left;
+    line-height: 60px;
+}
+
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+.menu {
+    float: right;
+    
+}
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+@media screen and (max-width: 2800px) {
+        .menu a:last-child {
+            display: inline;
+            background-color: #f39c12;
+            float: left;
+        }
+        .menu div {
+            float: left;
+        }
+        .menu div:hover {
+            /*border-bottom: 3px red solid;*/
+            background-color: #333;
+
+        }   
+        .menu {
+            margin-right: 100px;        
+        }
+}
+@media screen and (max-width: 1000px) {
+        .menu div {
+            float: top;
+            background-color: black;
+            width: 100%;
+            color: white;
+        }
+        .menu div:hover {
+            border-bottom: 3px gray solid;
+            background-color: gray;
+        }
+        .humburg {
+            float: right;
+            width: 60px;
+            height: 100%;
+            cursor: pointer;
+            background-image: url(../pic/burg.png);
+            background-size: cover;
+        }
+        .menu {
+            margin: 0px;
+            width: 100%;
+            opacity: 0.9;
+        }
+        .menu a:last-child {
+            display: inline;
+            width: 100%;
+        }
+}
+.menu  div {
+    padding: 0 20px;
+    cursor: pointer;
+}
+
+.title {
+    margin-left: 3%;
+    font-size: 22px;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+}
+.title a {
+    text-decoration: none;
+    color: white;
+}
+.title a:hover {
+    color: #f39c12;
+}

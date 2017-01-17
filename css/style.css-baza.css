@@ -1,0 +1,395 @@
+body {
+    font-family: "Helvetica";
+    margin: 0;
+    min-height: 100%;
+    /*background-color: #dfe6ed;*/
+
+}
+header {
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    opacity: 0.9;
+    color: black;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+}
+header > div {
+    float: left;
+    line-height: 60px;
+}
+content {
+    min-height: 100%;
+    margin-top: 60px;
+}
+textarea {
+    resize: none;
+}
+
+a {
+    color: #337ab7;
+    text-decoration: none;
+    cursor: pointer;
+}
+.menu {
+    float: right;
+    
+}
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+@media screen and (max-width: 2800px) {
+        .menu div {
+            float: left;
+        }
+        .menu div:hover {
+            background-color: white;
+            border-bottom: 3px red solid;
+        }   
+        .menu {
+            margin-right: 100px;        
+        }
+}
+@media screen and (max-width: 1000px) {
+        .menu div {
+            float: top;
+            background-color: black;
+            width: 100%;
+            color: white;
+        }
+        .menu div:hover {
+            background-color: #fff;
+        }
+        .humburg {
+            float: right;
+            width: 60px;
+            height: 100%;
+            cursor: pointer;
+            background-image: url(../pic/burg.png);
+            background-size: cover;
+        }
+        .menu {
+            margin: 0px;
+        }
+}
+.menu  div {
+    padding: 0 20px;
+    cursor: pointer;
+}
+
+.title {
+    margin-left: 3%;
+    font-size: 22px;
+    color: black;
+    cursor: pointer;
+    font-weight: 600;
+}
+.title:hover {
+    color: #333;
+}
+footer {
+    float: left;
+    width: 100%;
+    height: 50px;
+    background-color: #1f1f1f;
+    text-align: center;
+    color: white;
+    line-height: 50px;
+}
+p {
+    text-align: justify;
+    color: #333;
+    line-height: 1.4;
+    overflow: hidden;
+}
+p.teaser {
+    overflow: hidden;
+    min-height: 2ch;
+    max-height: 20ch;
+    width: 90%;
+    text-overflow: ellipsis;
+}
+p.date {
+    font-size: 12px;
+    margin-top: -15px;
+}
+.date {
+    margin-top: 10px;
+}
+p.views {
+    color: #337ab7;
+    font-size: 13px;
+}
+
+.news-teaser {
+    float: left;
+    min-height: 400px;
+    margin-bottom: 15px;
+}
+.news-teaser img {
+    width: 98%;
+    height: 180px;
+    
+    position: relative;
+    left: 50%;
+    margin-left: -49%;
+    margin-bottom: 20px;
+}
+@media screen and (max-width: 2800px) {
+        .news-teaser {
+            width: 33%;
+        }   
+}
+@media screen and (max-width: 600px) {
+        .news-teaser {
+            width: 100%;
+        }   
+        img {
+            height: auto;
+        }
+}
+.news-teaser a {
+    color: black;
+}
+.news-teaser a:hover {
+    color: gray;
+}
+.news-teaser h3 {
+    font-size: 18px;
+    margin: 10px;
+}
+.news-teaser .date {
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+
+.likes {
+    width: 20px;
+    height: 20px;
+    background: url(../pic/like.png);
+    background-size: cover;
+    line-height: 20px;
+    text-align: center;
+    cursor: pointer;
+    float: left;
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-left: 10px;
+}
+.likes:hover {
+    background-color: red;
+}
+.like-wrapper {
+    width: 80px;
+    float: left;
+    line-height: 20px; 
+    height: 40px;
+    line-height: 40px;
+      
+}
+.eye-wrapper {
+    float: left;
+    width: 80px;
+    height: 40px;
+    line-height: 40px;
+      
+}
+.eye {
+    width: 30px;
+    height: 30px;
+    background: url(../pic/view.png);
+    background-size: cover;  
+    float: left;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+
+
+
+.wrapper {
+    min-height: 10%;
+    padding: 2%;
+    background-color: white;
+    position: relative;
+    margin: 1%;
+    margin-top: 70px;  
+    float: left;
+}
+.left-block {
+    
+    margin-right: 1%;
+    margin-bottom: 30px;
+    position: relative;
+    background-color: white;
+}
+@media screen and (max-width: 2800px) {
+        .wrapper {
+            width: 70%;
+        }  
+        .left-block {
+            width: 23%;
+            margin-top: 70px;
+            float: left;
+        } 
+}
+@media screen and (max-width: 1000px) {
+        .wrapper {
+            width: 95%;
+            margin-left: 0;
+            margin-right: 0;
+            min-height: 150%;
+            float: left;
+        }
+        .left-block {
+            width: 100%;
+            margin-top: 0px;
+            float: left;
+        }    
+}
+
+ .information {
+    
+    padding: 2%;
+}
+.information h2 {
+    margin-left: 10px;
+    text-align: left;
+}
+.news-block {
+    padding: 20px;
+    font-size: 15px;
+}
+.news-block a {
+    color: #333;
+}
+.news-block a:hover {
+    color: #ff4e4e;
+}
+.news-block .date {
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+.news-block hr {
+    margin:  20px 0;
+    color: red;
+}
+
+.weather {
+    float: bottom;
+}
+
+.button {
+    display: block;
+    background-color: #286090;
+    border: 1px solid #204d74;
+    border-radius: 3px;
+    color: white;
+    font-size: 15px;
+    font-family: "Helvetica";
+    height: 30px;
+    line-height: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    cursor: pointer;
+    text-align: center;
+    vertical-align: center;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+.button:hover {
+    background-color: #204d74;
+}
+.label {
+    color: #333;
+    font-family: "Helvetica";
+    font-size: 16px;
+    font-weight: bold;
+}
+.input-element {
+    color: #555;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 15px;
+    margin: 10px 0;
+    font-family: "Helvetica";
+}
+.add-news {
+    width: 120px;
+    float: left;
+}
+.advertisement {
+    width: 170px;
+}
+div.wrapper-advertisement {
+
+}
+.photo {
+    width: 120px;
+}
+img.small {
+    width: 150px;
+}
+img.medium {
+    width: 40%;
+}
+
+@media screen and (max-width: 2800px) {
+    img.large {   
+        width: 80%;
+        display: inline-block;
+        margin: 5px;
+    }       
+}
+@media screen and (max-width: 1000px) {
+    img.large {   
+        width: 90%; 
+        display: inline-block;
+    }           
+}
+
+.admin-content {
+    width: 75%;
+    min-height: 400px;
+    
+}
+.admin-content table {
+    border-collapse: collapse;    
+}
+.admin-content th > p {
+    overflow: hidden;
+    height: 20ch;
+}
+.admin-content th.header {
+    color: #337ab7;
+}
+.admin-content th {
+    vertical-align: top;
+    color: #333;
+    border: 1px solid #ddd;
+    display: table-cell;
+    text-align: left;
+    font-weight: 500;
+    padding: 7px;
+}
+.list-content {
+    float: left;
+    width: 20%;
+    height: 32px;
+    margin-left: 10px;
+}
+.list-content select {
+    height: 100%;
+    width: 100%;
+    font-size: 16px;
+}
+div.errors {
+    color: red;
+    margin-bottom: 20px;
+}
+
+

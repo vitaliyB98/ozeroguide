@@ -4,7 +4,7 @@
 
 		function __construct () {
 			$this->model = new Model_comment();
-			//$this->view = new View();
+			
 		}
 		function action_index () {
 			$data = $this->model->getAll();

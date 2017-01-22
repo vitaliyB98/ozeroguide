@@ -9,6 +9,8 @@
 			//include redbean library
 			require_once "application/lib//rb.php";
 			//conecting dataBase for redbean
+
+			// settings for my local server =)
 			R::setup( 'mysql:host=localhost;dbname=ozero','admin', 'php' );
 		}
 

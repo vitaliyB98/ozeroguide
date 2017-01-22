@@ -77,7 +77,7 @@
 		<footer>
 			<!-- Yandex.Metrika informer -->
 			<? //Widget::MetricaCounter(); ?>
-			<? //Widget::Metrica(); ?>
+			<? Widget::Metrica(); ?>
 			<!-- /Yandex.Metrika informer -->
 			<div>
 				Озеро <?= date("Y",time())?>

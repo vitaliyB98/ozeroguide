@@ -4,9 +4,9 @@
 		protected $tableName = 'usero';
 		// VK auth params
 
-		public $client_id = '5762769'; // ID приложения
-    	public $client_secret = 'iMAqTHNFyPM4o0bdFSyB'; // Защищённый ключ
-    	public $redirect_uri = 'http://shop1/usero/loginVk'; // Адрес сайта
+		public $client_id = '*******'; // ID application
+    	public $client_secret = '*******************'; // Protected key
+    	public $redirect_uri = '***************';
 
     	public function saveUsers ($login, $name, $password) {
     		// Redbens method

@@ -3,6 +3,8 @@
 
 		static function Connect () {
 
+			// Local setting)
+
 			$localhost = 'localhost';
 			$dbName = 'ozero';
 			$user = 'admin';
